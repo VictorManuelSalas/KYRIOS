@@ -1,0 +1,199 @@
+.dark {
+    background-color: black;
+}
+
+.dark #modo {
+    background-color: rgba(220, 220, 220, 0);
+}
+
+/*----------------------header---------------------------------------*/
+
+.dark header {
+    box-shadow: 0px 15px 4px rgba(255, 255, 255, 0.281);
+    background-image: linear-gradient(110deg, #ff7b00 0, #fe6700 12.5%, #f65100 25%, #e93912 37.5%, #d8181d 50%, #c50023 62.5%, #b40028 75%, #a4002b 87.5%, #95002f 100%);
+}
+
+.dark .menu li a:hover {
+    background-image: linear-gradient(110deg, #ff7b00 0, #fe6700 12.5%, #f65100 25%, #e93912 37.5%, #d8181d 50%, #c50023 62.5%, #b40028 75%, #a4002b 87.5%, #95002f 100%);
+}
+
+.dark #icon-menu {
+
+    background-image: radial-gradient(circle at 0.93% 67.86%, #ff7b00 0, #fe6700 0%, #f65100 0%, #e93912 50%, #d8181d 0%, #c50023 55%, #b40028 75%, #a4002b 87.5%, #95002f 100%);
+
+}
+
+/*----------------------Sobre nosotros---------------------------------------*/
+.dark .fondo_del_carrusel {
+    background: linear-gradient(180deg, #D12B02 0%, rgb(10, 0, 0) 100%);
+}
+
+.dark #nosotros {
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.dark #nosotros h1 {
+    color: white;
+}
+
+.dark #nosotros p {
+    color: white;
+}
+
+/*----------------------Servicios---------------------------------------*/
+
+.dark .mediaparte2 button {
+    background: rgba(190, 42, 5, 0.84);
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+}
+
+.dark .mediaparte2 button:hover {
+    background-color: rgba(146, 5, 5, 0.84);
+    color: rgb(255, 255, 255);
+}
+
+/*----------------------Productos---------------------------------------*/
+.dark #productos h1 {
+    color: white;
+}
+
+.dark .contenedor_cards {
+    background: linear-gradient(180deg, #070707 0%, rgb(160, 29, 25) 34.77%, rgb(160, 29, 25) 73.44%, #000000 100%);
+
+}
+
+.dark .contenedor_cards::before, .dark .contenedor_cards::after {
+    background: linear-gradient(to right, rgb(32, 31, 31) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+
+.dark .card {
+    width: auto;
+    height: fit-content;
+    border: black solid 1px;
+    margin: 10px;
+    transition: all 200ms;
+    background: linear-gradient(180deg, #FFD166 0%, #F48C06 49.48%, #EE0404 100%);
+    opacity: 0.8;
+    box-shadow: 0px 10px 10px #000000;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.dark .card:hover {
+    height: fit-content;
+    opacity: 1;
+    transform: scale(1.1);
+    background: linear-gradient(180deg, #EE0404 0%, #F48C06 49.48%, #FFD166 100%);
+}
+
+/*----------------------empresas---------------------------------------*/
+
+.dark #empresas {
+    background-color: black;
+}
+
+.dark #empresas p {
+    color: whitesmoke;
+}
+
+
+.dark #empresas h1 {
+    color: whitesmoke;
+}
+
+.dark #empresas h2 {
+    color: rgb(255, 0, 0);
+}
+
+/*----------------------poruqe---------------------------------------*/
+
+/*----------------------comentarios---------------------------------------*/
+.dark #comentarios {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background: rgb(251,20,20);
+    background: linear-gradient(90deg, rgba(251,20,20,1) 0%, rgba(121,9,9,1) 35%, rgba(0,0,0,1) 100%);
+    overflow: hidden;
+}
+
+.dark .titulo_text {
+    color: whitesmoke;
+}
+
+.dark .titulo_text h1 {
+    color: white;
+}
+
+.dark .titulo_text p {
+    color: white;
+}
+
+.dark .comentarios_cards {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dark .img_com {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-left: 280px solid transparent;
+    border-bottom: 22px solid rgb(59, 58, 58);
+    bottom: 0;
+}
+
+.dark .text_com {
+    background-color: rgb(59, 58, 58);
+}
+
+.dark .text_com h1 {
+    color: white;
+}
+
+.dark .text_com p {
+    color: white;
+}
+
+/*----------------------horario---------------------------------------*/
+
+/*----------------------contactos---------------------------------------*/
+.dark #contacto {
+    background-color: black;
+}
+
+.dark #contacto h1 {
+    color: rgb(255, 255, 255);
+}
+
+.dark .Contacto_Info {
+    color: white;
+}
+
+.dark .Contacto_Info h2 {
+    color: white;
+}
+
+.dark .Contacto_Info hr {
+    width: 70%;
+}
+
+.dark .Contacto_Info p {
+    color: white;
+}
+
+.dark .maps {
+    border-left: #ffffff solid 1px;
+}
+
+.dark .maps div {
+    border: solid white 1px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*----------------------pie de pagina---------------------------------------*/
+.dark .piedepagina {
+    background-image: linear-gradient(110deg, #ff7b00 0, #fe6700 12.5%, #f65100 25%, #e93912 37.5%, #d8181d 50%, #c50023 62.5%, #b40028 75%, #a4002b 87.5%, #95002f 100%);
+}
