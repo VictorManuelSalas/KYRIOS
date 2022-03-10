@@ -1,4 +1,4 @@
 # KYRIOS
 Pagina web de cerrajeria kyrios-Parcticas Universitarias!
 
-[Frontend Image](./images/frontend.gif)
+[Frontend Image](./imagenes/logo/logo.png)
