@@ -210,7 +210,9 @@ html {
 .contenedor_cards .card {
   animation: scroll 25s infinite linear;
 }
-
+.contenedor_cards .card:hover{
+  animation-play-state: paused;
+}
 @keyframes scroll {
   0% {
     transform: translateX(calc(250px * 3));
